@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    background-image: url(img/back.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+/* СРАНИЦА 1 */
+
+@media (max-width: 720px) {
+    .about_up_tex{
+        font-size: 20px;
+    }
+    .about_down_tex{
+        font-size: 15px;
+        width: 100px;
+    }
+    .pre-two-titel{
+        font-size: 100px;
+     }
+    .page1-vid{
+        display: none;
+    }
+     .in-about{
+        flex-direction: column;
+    }
+    .person-card{
+        height: 400px;
+        width: 100px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        justify-content: space-around;
+        padding: 20px;
+    }
+  }
+
+.in-page-title{
+   
+    /* background-color: rgba(128, 255, 0, 0.326); */
+    height: 1000px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.page-title{
+    overflow: hidden;
+}
+.up-text-h1{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: 1500px;
+    font-size: 5vw;
+    
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+}
+.page1-vid{
+    
+    width: 2000px;
+    
+}
+
+ /* ВТОРАЯ СТРАНИЦА */
+ .pre-two-titel{
+    height: 200px;
+    width: 100%;
+    background-image: url(img/denji.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 5vw;
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+.two_titel{
+    width: 100%;
+    height: 900px;
+    /* background-color: rgba(95, 158, 160, 0.311); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.person-card{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+.img-on-card{
+    height: 200px;
+}
+.down-card-tex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* ТРЕТЬЯ СТАНИЦА */
+.pre-tree-titel{
+    height: 200px;
+    width: 100%;
+    /* background-color: rgba(0, 255, 162, 0.355); */
+    font-size: 5vw;
+    color: white;
+    font-weight: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.buy-manga-titel{
+    height: 600px;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.for-title{
+    height: 600px;
+    width: 100%;
+    /* background-color: rgba(13, 0, 255, 0.341); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-buy-manga{
+    height: 500px;
+}
+.card-buy-manga{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+
+   
+    /* background-color: rgba(255, 255, 0, 0.267); */
+}
+.card-buy-manga:hover{
+    
+}
+.butttt{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(255, 78, 78);
+    font-size: 10px;
+    transition: 100ms;
+    top: 200px;
+    left: 100px;
+    margin: 10px;
+}
+.butttt:hover{
+    transform: scale(1.2);
+    font-size: 13px;
+    background-color: yellow;
+}
+.menu-buy{
+    height: 1000px;
+    width: 1000px;
+    position: absolute;
+    background-color: black;
+    
+}
+.manga-text-buy{
+    padding: 7px;
+    background-color: rgb(213, 255, 45);
+    
+}
+.managa-photo{
+    height: 365px;
+}
+ /* О ТАЙТЛЕ */
+.about-page{
+    height: 900px;
+    width: 100%;
+
+}
+.about-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.in-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 1200px;
+}
+.in_about-text{
+    
+    color: aliceblue;
+    font-size: 20px;
+}
+.about_up_tex{
+    text-align: center;
+    font-size: 70px;
+    
+}
+.about_down_tex{
+    text-align: center;
+    width: 650px;
+    padding: 20px;
+}
+.about-logo{
+    border-radius: 10px;
+    height: 400px;
+}
+.page5-seen{
+    
+}
